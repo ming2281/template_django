@@ -1,0 +1,203 @@
+POST http://localhost:8000/jwt
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",   "password": "hezhiming" }
+
+<> 2019-06-30T084537.200.json
+
+###
+
+POST http://localhost:8000/jwt_verify
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImhlemhpbWluZyIsImV4cCI6MTU2MTg1NTYyOCwiZW1haWwiOiIifQ.NbA3yH_u911FtOq57UDNC6IYHAzv8NCwKQUPkOBA-Yw"}
+
+<> 2019-06-30T084249.200.json
+
+###
+
+POST http://localhost:8000/jwt
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",   "password": "hezhiming" }
+
+<> 2019-06-30T084208.200.json
+
+###
+
+POST http://localhost:8000/jwt
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",   "password": "hezhiming" }
+
+###
+
+POST http://localhost:8000/jwt
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",   "password": "hezhiming" }
+
+<> 2019-06-30T084151.200.json
+
+###
+
+POST http://localhost:8000/jwt
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",   "password": "hezhiming" }
+
+<> 2019-06-30T084121.500.html
+
+###
+
+POST http://localhost:8000/api-token-verify
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImhlemhpbWluZyIsImV4cCI6MTU2MTg1NTM1MywiZW1haWwiOiIifQ.XTbwB8Tj_oETUfWi8Yk_pskXRmtB1fw-Y7Jy6DQULrI" , "username": "hezhiming", "password": "hezhiming"}
+
+<> 2019-06-30T083957.500.html
+
+###
+
+POST http://localhost:8000/api-token-verify
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImhlemhpbWluZyIsImV4cCI6MTU2MTg1NTM1MywiZW1haWwiOiIifQ.XTbwB8Tj_oETUfWi8Yk_pskXRmtB1fw-Y7Jy6DQULrI" , "username": "hezhiming", "password": "hezhiming"}
+
+<> 2019-06-30T083926.200.json
+
+###
+
+POST http://localhost:8000/api-token-verify
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImhlemhpbWluZyIsImV4cCI6MTU2MTg1NTM1MywiZW1haWwiOiIifQ.XTbwB8Tj_oETUfWi8Yk_pskXRmtB1fw-Y7Jy6DQULrI" }
+
+<> 2019-06-30T083902.400.json
+
+###
+
+POST http://localhost:8000/api-token-verify
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImhlemhpbWluZyIsImV4cCI6MTU2MTg1NTM1MywiZW1haWwiOiIifQ.XTbwB8Tj_oETUfWi8Yk_pskXRmtB1fw-Y7Jy6DQULrI" }
+
+<> 2019-06-30T083901.400.json
+
+###
+
+POST http://localhost:8000/api-token-verify/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImhlemhpbWluZyIsImV4cCI6MTU2MTg1NTM1MywiZW1haWwiOiIifQ.XTbwB8Tj_oETUfWi8Yk_pskXRmtB1fw-Y7Jy6DQULrI" }
+
+<> 2019-06-30T083837.400.json
+
+###
+
+POST http://localhost:8000/api-jwt-token-auth/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",    "password": "hezhiming" }
+
+<> 2019-06-30T083733.200.json
+
+###
+
+POST http://localhost:8000/api-jwt-token-auth/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",    "password": "hezhiming" }
+
+<> 2019-06-29T114331.200.json
+
+###
+
+POST http://localhost:8000/api-jwt-token-auth
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",    "password": "hezhiming" }
+
+<> 2019-06-29T114307.500.html
+
+###
+
+POST http://localhost:8000/api-jwt-token-auth
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",    "password": "hezhiming" }
+
+<> 2019-06-29T114150.500.html
+
+###
+
+POST http://localhost:8000/api-jwt-token-auth
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",    "password": "hezhiming" }
+
+<> 2019-06-29T114138.500.html
+
+###
+
+POST http://localhost:8000/api-jwt-token-auth
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",    "password": "hezhiming" }
+
+###
+
+POST http://localhost:8000/api-token
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",    "password": "hezhiming" }
+
+<> 2019-06-29T111956.200.json
+
+###
+
+POST http://localhost:8080/api-token
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "username": "hezhiming",    "password": "hezhiming" }
+
+###
+
